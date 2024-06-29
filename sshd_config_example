@@ -1,0 +1,7 @@
+#SSH server configuration
+
+Port 22
+PermitRootLogin prohibit-password
+AllowUsers root
+PasswordAuthentication yes
+PubkeyAuthentication yes
